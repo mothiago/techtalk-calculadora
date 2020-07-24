@@ -1,0 +1,23 @@
+{
+    "name": "mothiago/techtalk_calculadora",
+    "description": "Soma e outras coisas",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thiago Oliveira",
+            "email": "thiago.oliveira@agilize.com.br"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9.2"
+    },
+    "autoload":{
+        "psr-4": {
+            "Mothiago\\TechTalkCalculadora\\": "src"
+        }
+
+    }
+}
